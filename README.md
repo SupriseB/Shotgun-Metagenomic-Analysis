@@ -1,6 +1,6 @@
-# 🧬 Gut Microbiome Metagenomic Pipeline  
+#  Gut Microbiome Metagenomic Pipeline  
 
-This repository contains a reproducible pipeline for **shotgun metagenomic analysis** of gut microbiome sequencing data. It performs:  
+This repository contains a reproducible pipeline for **shotgun metagenomic analysis** of gut microbiome illumina sequencing data. It performs:  
 
 - **Quality control** (adapter trimming, filtering)  
 - **Host read removal** (Bowtie2 against GRCh38)  
@@ -11,7 +11,7 @@ This repository contains a reproducible pipeline for **shotgun metagenomic analy
 
 ---
 
-## 📂 Repository Contents  
+##  Repository Contents  
 
 - `gut_microbiome_pipeline.sh` → Main pipeline script  
 - `bracken_to_krona.py` → Helper script to convert Bracken output to Krona input  
@@ -19,7 +19,7 @@ This repository contains a reproducible pipeline for **shotgun metagenomic analy
 
 ---
 
-## ⚙️ Requirements  
+##  Requirements  
 
 The pipeline relies on the following tools:  
 
@@ -38,7 +38,7 @@ The pipeline relies on the following tools:
 
 ---
 
-## 🚀 Usage  
+## Usage  
 
 ### 1. Prepare inputs  
 
@@ -95,7 +95,7 @@ For each sample (`SAMPLE`):
 
 ---
 
-## 📝 Notes  
+##  Notes  
 
 - Ensure that **Singularity/Apptainer** is installed and accessible.  
 - The script automatically detects `.fastq` or `.fastq.gz` files.  
@@ -104,7 +104,7 @@ For each sample (`SAMPLE`):
 
 ---
 
-## 📊 Example Workflow  
+##  Example Workflow  
 
 ```bash
 # Run on 2 samples
@@ -122,7 +122,7 @@ firefox SAMPLE1_results/SAMPLE1_bracken_krona.html
 
 ---
 
-## 👨‍💻 Author  
+##  Author  
 
 Suprise Baloyi  
 📧 suprisebaloyi17@gmail.com  
